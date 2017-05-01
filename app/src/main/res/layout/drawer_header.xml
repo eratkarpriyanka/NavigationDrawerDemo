@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="240dp">
+
+    <ImageView
+        android:id="@+id/ivHeader"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/header"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cartoons"
+        android:layout_gravity="bottom|center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="10dp"/>
+
+</FrameLayout>
